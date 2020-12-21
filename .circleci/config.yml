@@ -111,6 +111,6 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
           requires:
             - test_unit
